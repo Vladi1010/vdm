@@ -42,12 +42,16 @@ class Blockchain:
             if current_block.previous_hash != previous_block.hash:
                 return False
 
-        return True
-
-blockchain = Blockchain()
-blockchain.add_block(Block(1, [{"sender": "Alice", "recipient": "Bob", "amount": 10}], time.time(), ""))
-blockchain.add_block(Block(2, [{"sender": "Bob", "recipient": "Charlie", "amount": 5}], time.time(), ""))
-blockchain.add_block(Block(3, [{"sender": "Charlie", "recipient": "Alice", "amount": 3}], time.time(), ""))
-
-print("Blockchain is valid:", blockchain.is_chain_valid())
+        <!DOCTYPE html>
+<html>
+  <head>
+    <title>Informações sobre Criptomoeda</title>
+  </head>
+  <body>
+    <h1>Bitcoin</h1>
+    <p>Preço atual: R$ 123.456,78</p>
+    <p>Volume diário: 1.234.567 BTC</p>
+    <p>Capitalização de mercado: R$ 1.234.567.890,12</p>
+  </body>
+</html>
 
